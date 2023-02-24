@@ -1,27 +1,83 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
-     <img src="https://tinypic.host/images/2023/02/04/515454515.jpg"/>
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="500"
+        width="300"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="100"
+        width="400"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="100"
+        width="400"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="100"
+        width="400"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="100"
+        width="400"
+      />
+      <Image
+        src="https://tinypic.host/images/2023/02/04/515454515.jpg"
+        height="100"
+        width="400"
+      />
     </>
-  )
+  );
 }
