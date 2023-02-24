@@ -21,6 +21,8 @@ export default function Home() {
         height="500"
         width="300"
         alt="test"
+        unoptimized
+        priority
       />
       <Image
         src="https://tinypic.host/images/2023/02/22/imagedb33e64846805f71.th.png"
