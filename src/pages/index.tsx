@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Image
-        src="https://tinypic.host/images/2023/01/17/DSC00455_zps03ba7e02.th.jpg"
+        src="https://tinypic.host/images/2023/01/17/DSC00455_zps03ba7e02.jpg"
         height="500"
         width="300"
         alt="test"
