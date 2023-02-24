@@ -13,6 +13,8 @@ export default function Home() {
         height="500"
         width="300"
         alt="test"
+        unoptimized
+        priority
       />
       <Image
         src="https://tinypic.host/images/2022/12/21/9845g459gijj459.th.jpg"
@@ -59,16 +61,12 @@ export default function Home() {
         height="100"
         width="400"
         alt="test"
-        unoptimized
-        priority
       />
       <Image
         src="https://tinypic.host/images/2022/05/01/Layered-Blinds-And-Shades-Canada.th.jpg"
         height="100"
         width="400"
         alt="test"
-        unoptimized
-        priority
       />
     </>
   );
